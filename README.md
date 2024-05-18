@@ -2,15 +2,43 @@
 
 Juice Code Test
 
-## Getting Started
+<h1> Tabel Of Content</h1>
+<ol>
+  <li>
+    Prerequisites
+  </li>
+  <li>
+    Buil and run 
+  </li>
+  <li>
+    Run integration test
+  </li>
+</ol>
 
-This project is a starting point for a Flutter application.
+# Prerequisites
+Make sure that the following is installed on your system:
 
-A few resources to get you started if this is your first Flutter project:
+A clone of this repository.
+Recent flutter sdk.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Android
+Android Studio
+iOS (only available for Apple computers, e.g. MacBook, iMac)
+XCode
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Buil and run 
+Open this project in android studio or vs code.
+Select chrome in flutter device selection.
+You can start testing by running the app.
+
+# Run integration test
+To run the integration test you need run chromedriver first
+if your mac haven't installed chromedrive you can download here 
+https://googlechromelabs.github.io/chrome-for-testing/
+
+first run this command at chromedriver location 
+./chromedriver --port=4444
+and 
+run this command at project directory 
+flutter drive --driver=test_driver/integration_test.dart --target=integration_test/main_test.dart -d web-server
