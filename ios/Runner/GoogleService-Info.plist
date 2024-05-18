@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyANW9Jv5ahYRGKO2ob5JdX2ZpWPGP6ntH0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>568410602920</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pyaesone.juiceCodeTest</string>
+	<key>PROJECT_ID</key>
+	<string>juice-code-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>juice-code-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:568410602920:ios:9b50e237fb36250d1c319d</string>
+</dict>
+</plist>

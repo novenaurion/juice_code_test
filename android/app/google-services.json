@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568410602920",
+    "project_id": "juice-code-test",
+    "storage_bucket": "juice-code-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568410602920:android:732ff19ba32fb9151c319d",
+        "android_client_info": {
+          "package_name": "com.pyaesone.juice_code_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDws2QWCUIylShh1Wy-Tyu8yJqaHCaXFrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
