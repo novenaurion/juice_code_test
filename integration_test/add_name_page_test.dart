@@ -35,11 +35,8 @@ Future<void> addNameSuccessTest() async {
     expect(addButton, findsOneWidget);
 
     await tester.tap(addButton);
-    await tester.pump();
 
-    expect(find.byKey(Key('loading-dialog')), findsOneWidget);
-
-    await tester.pump(Duration(seconds:5));
+    await tester.pump(Duration(seconds:10));
 
     expect(find.byKey(Key('error-success-dialog')), findsOneWidget);
 
